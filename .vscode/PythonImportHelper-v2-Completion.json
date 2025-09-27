@@ -1,0 +1,154 @@
+[
+    {
+        "label": "*",
+        "importPath": "banana",
+        "description": "banana",
+        "isExtraImport": true,
+        "detail": "banana",
+        "documentation": {}
+    },
+    {
+        "label": "record",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "peekOfCode": "record = {\n    \"headers\": {k: str(v) for k, v in self.request.META.items() if k.startswith('HTTP_')}\n}\ncmd = \"git-clang-format --style=\\\"{{BasedOnStyle: Google, ColumnLimit: 100, IndentWidth: 2, \" \\ \"AlignConsecutiveAssignments: true}}\\\" {COMMIT_SHA} -- ./**/*.proto > {OUTPUT}\".format(",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "documentation": {}
+    },
+    {
+        "label": "cmd",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "peekOfCode": "cmd = \"git-clang-format --style=\\\"{{BasedOnStyle: Google, ColumnLimit: 100, IndentWidth: 2, \" \\ \"AlignConsecutiveAssignments: true}}\\\" {COMMIT_SHA} -- ./**/*.proto > {OUTPUT}\".format(",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test-freeze-56377",
+        "documentation": {}
+    },
+    {
+        "label": "Monkey",
+        "kind": 6,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "class Monkey:\n\t# Bananas the monkey can eat.\n\tcapacity = 10\n\tdef eat(self, N):\n\t\t'''Make the monkey eat N bananas!'''\n\t\tcapacity = capacity - N*banana.size\n\tdef feeding_frenzy(self):\n\t\teat(9.25)\n\t\treturn \"Yum yum\"\n\tdef some_func(a:",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "Memoize",
+        "kind": 6,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "class Memoize:\n    def __init__(self, fn):\n        self.fn = fn\n        self.memo = {}\n    def __call__(self, *args):\n        if args not in self.memo:\n                self.memo[args] = self.fn(*args)\n        return self.memo[args]\nres = re.search(r\"([0-9-]*)\\s*([A-Za-z]+),\\s+(.*)\", i)\nwhile True:",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "firstn",
+        "kind": 2,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "def firstn(g, n):\n\tfor _ in range(n):\n\t\tyield g.next()\nreduce(lambda x,y: x+y, [47,11,42,13])\nwoerter = {\"house\" : \"Haus\", \"cat\":\"Katze\", \"black\":\"schwarz\"}\nmydictionary = {\n    'foo': 23, #comment\n    'bar': \"hello\" #sqadsad\n}\ndef steuern(einkommen):",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "steuern",
+        "kind": 2,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "def steuern(einkommen):\n\t\"\"\"Berechnung der zu zahlenden Steuern fuer ein zu versteuerndes Einkommen von x\"\"\"\n\tif einkommen <= 8004:\n\t\treturn 0\n\telif einkommen <= 13469:\n\t\ty = (einkommen -8004.0)/10000.0\n\t\treturn (912.17 * y + 1400)*y\n\telse:\n\t\treturn einkommen * 0.44 - 15694\ndef beliebig(x, y, *mehr):",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "beliebig",
+        "kind": 2,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "def beliebig(x, y, *mehr):\n    print \"x=\", x, \", x=\", y\n    print \"mehr: \", mehr\nclass Memoize:\n    def __init__(self, fn):\n        self.fn = fn\n        self.memo = {}\n    def __call__(self, *args):\n        if args not in self.memo:\n                self.memo[args] = self.fn(*args)",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "\tcapacity",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "\tcapacity = 10\n\tdef eat(self, N):\n\t\t'''Make the monkey eat N bananas!'''\n\t\tcapacity = capacity - N*banana.size\n\tdef feeding_frenzy(self):\n\t\teat(9.25)\n\t\treturn \"Yum yum\"\n\tdef some_func(a:\n\t\t\t\t\tlambda x=None:\n\t\t\t\t\t{key: val",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tcapacity",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "\t\tcapacity = capacity - N*banana.size\n\tdef feeding_frenzy(self):\n\t\teat(9.25)\n\t\treturn \"Yum yum\"\n\tdef some_func(a:\n\t\t\t\t\tlambda x=None:\n\t\t\t\t\t{key: val\n\t\t\t\t\t\tfor key, val in\n\t\t\t\t\t\t\t(x if x is not None else [])\n\t\t\t\t\t}=42):",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "woerter",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "woerter = {\"house\" : \"Haus\", \"cat\":\"Katze\", \"black\":\"schwarz\"}\nmydictionary = {\n    'foo': 23, #comment\n    'bar': \"hello\" #sqadsad\n}\ndef steuern(einkommen):\n\t\"\"\"Berechnung der zu zahlenden Steuern fuer ein zu versteuerndes Einkommen von x\"\"\"\n\tif einkommen <= 8004:\n\t\treturn 0\n\telif einkommen <= 13469:",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "mydictionary",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "mydictionary = {\n    'foo': 23, #comment\n    'bar': \"hello\" #sqadsad\n}\ndef steuern(einkommen):\n\t\"\"\"Berechnung der zu zahlenden Steuern fuer ein zu versteuerndes Einkommen von x\"\"\"\n\tif einkommen <= 8004:\n\t\treturn 0\n\telif einkommen <= 13469:\n\t\ty = (einkommen -8004.0)/10000.0",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ty",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "\t\ty = (einkommen -8004.0)/10000.0\n\t\treturn (912.17 * y + 1400)*y\n\telse:\n\t\treturn einkommen * 0.44 - 15694\ndef beliebig(x, y, *mehr):\n    print \"x=\", x, \", x=\", y\n    print \"mehr: \", mehr\nclass Memoize:\n    def __init__(self, fn):\n        self.fn = fn",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "res = re.search(r\"([0-9-]*)\\s*([A-Za-z]+),\\s+(.*)\", i)\nwhile True:\n    try:\n        n = raw_input(\"Number: \")\n        n = int(n)\n        break\n    except ValueError:\n        print(\"Not a number\")\nasync with EXPR as VAR:\n    BLOCK",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "my_dictionary",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "my_dictionary = {\n    'foo':23, # this should be colorized as comment\n    'bar':\"foobar\" #this should be colorized as comment\n}\n# test raw strings\ntext = r\"\"\"\ninterval ``[1,2)`` leads to\n\"\"\"\nhighlight_error = True\n# highlight doctests",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "text = r\"\"\"\ninterval ``[1,2)`` leads to\n\"\"\"\nhighlight_error = True\n# highlight doctests\nr'''Module docstring\n    Some text followed by code sample:\n    >>> for a in foo(2, b=1,\n    ...                 c=3):\n    ...   print(a)",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    },
+    {
+        "label": "highlight_error",
+        "kind": 5,
+        "importPath": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "description": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "peekOfCode": "highlight_error = True\n# highlight doctests\nr'''Module docstring\n    Some text followed by code sample:\n    >>> for a in foo(2, b=1,\n    ...                 c=3):\n    ...   print(a)\n    0\n    1\n'''",
+        "detail": "extensions.vscode-colorize-tests.test.colorize-fixtures.test",
+        "documentation": {}
+    }
+]
